@@ -1,0 +1,49 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #121139;
+  color: white;
+}
+.container{
+  width: 90%;
+  text-align: center;
+  margin: 100px auto;
+
+}
+.description{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+}
+.description h1,p{
+  background: linear-gradient(100deg, #9130F4, #4646F9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.description h1{
+  font-size: 80px;
+}
+.description h2{
+  font-size: 50px;
+}
+.description p{
+  font-size: 35px;
+}
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; 
+  flex-direction: column;
+}
+.login_btn, .logout_btn{
+  padding: 20px 120px;
+  background: linear-gradient(100deg, #9130F4, #4646F9);
+  border-radius:10px;
+  font-size: 20px;
+  display: block;
+  margin: 0 auto;
+}
