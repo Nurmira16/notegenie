@@ -47,3 +47,27 @@ main{
   display: block;
   margin: 0 auto;
 }
+
+
+/* 
+Landing page
+*/
+
+.landing_div{
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.landing_div h1{
+  font-size: 50px;
+}
+.landing_div p{
+  font-size: 30px;
+}
+.landing_div button, input{
+  padding: 20px;
+  font-size: 25px;  
+  border-radius: 10px;
+  border-color: #4646F9;
+}

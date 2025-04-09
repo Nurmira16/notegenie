@@ -31,7 +31,7 @@ const LandingPage = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gray-100 flex flex-col justify-center items-center p-6">
+    <div className="min-h-screen bg-gray-100 flex flex-col justify-center items-center p-6 landing_div">
       <h1 className="text-4xl font-bold mb-4">Welcome to NoteGenie!</h1>
       <p className="mb-6 text-xl">Upload your notes to extract the text.</p>
 
