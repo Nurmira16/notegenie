@@ -51,6 +51,19 @@ const LandingPage = () => {
           <p className="whitespace-pre-wrap">{extractedText}</p>
         </div>
       )}
+      
+      {(image || extractedText) && (
+      <button
+        onClick={() => {
+          setImage(null);
+          setImagePreview(null);
+          setExtractedText('');
+        }}
+        className="mt-4 text-sm text-gray-500 underline"
+      >
+        Clear and Upload Another
+      </button>
+    )}
     </div>
   );
 };
