@@ -3,8 +3,8 @@ import React from 'react';
 import { useAuth0 } from '@auth0/auth0-react'; 
 import LoginButton from './components/LoginButton';
 import LogoutButton from './components/LogoutButton';
-import HomePage from './pages/HomePage';
-import LandingPage from './pages/LandingPage';
+import HomePage from './pages/HomePage'
+import LandingPage from './pages/LandingPage'
 
 function App() {
   const { isAuthenticated, isLoading } = useAuth0();
@@ -14,7 +14,7 @@ function App() {
         {isAuthenticated ? ( 
         <>
         <LandingPage /> 
-        <LogoutButton/> 
+        <LogoutButton/>
         </> // If authenticated, show the homepage
       ) : (
         <div className="login-container">

@@ -1,35 +1,3 @@
-
-# Node.js
-node_modules/
-
-# Firebase-related files
-.firebase/
-
-# Firebase service account credentials
-*.json
-
-# Environment variables (important for security)
-.env
-
-# Logs
-*.log
-
-# OS-specific files
-.DS_Store       # macOS
-Thumbs.db       # Windows
-
-# IDE/Editor-specific files
-.vscode/
-.idea/
-
-# Build and dependency directories
-build/
-dist/
-
-# Temporary files
-*.swp
-*.swo
-
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
